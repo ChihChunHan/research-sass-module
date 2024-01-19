@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "sass": "^1.70.0"
+  },
+  "name": "research-sass-module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hanc.han <chihchun.han@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch": "sass src:dist --watch"
+  }
+}
