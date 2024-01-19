@@ -1,0 +1,19 @@
+// private variables
+$_font-size-h1: 1rem;
+$_font-size-h2: 1.5rem;
+$_font-size-h3: 2rem;
+
+@mixin h1 {
+  font-size: $_font-size-h1;
+  color: red;
+}
+
+@mixin h2 {
+  font-size: $_font-size-h2;
+  color: blue;
+}
+
+@mixin h3 {
+  font-size: $_font-size-h3;
+  color: green;
+}

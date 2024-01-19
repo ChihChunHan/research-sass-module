@@ -1,0 +1,10 @@
+@use "./lightColors";
+
+div {
+  color: lightColors.$primary;
+  background-color: lightColors.$primary-light;
+  .box {
+    color: lightColors.$secondary;
+    background-color: lightColors.$secondary-light;
+  }
+}

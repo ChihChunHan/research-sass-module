@@ -1,0 +1,7 @@
+@use "_blue-color";
+@import "_red-color";
+
+div {
+  @extend %red-color;
+  @extend %blue-color;
+}

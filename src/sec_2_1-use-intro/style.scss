@@ -1,0 +1,11 @@
+@use "./_variables.scss";
+@use "./_mixins.scss";
+
+div {
+  color: variables.$primary;
+  @include mixins.h1;
+  .box {
+    background: variables.$secondary;
+    @include mixins.h2;
+  }
+}

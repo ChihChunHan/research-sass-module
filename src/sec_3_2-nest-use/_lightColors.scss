@@ -1,0 +1,8 @@
+@use "./constant/defaultColors";
+
+$primary-light: lighten(defaultColors.$primary, 30%);
+$secondary-light: lighten(defaultColors.$secondary, 30%);
+$success-light: lighten(defaultColors.$success, 30%);
+$info-light: lighten(defaultColors.$info, 30%);
+$warning-light: lighten(defaultColors.$warning, 30%);
+$danger-light: lighten(defaultColors.$danger, 30%);

@@ -1,0 +1,15 @@
+// Q1.
+// @use "./defaultColors";
+@use "./lightColors";
+
+div {
+  // Q2
+  // color: defaultColors.$primary;
+  // color: lightColors.$primary;
+  background-color: lightColors.$primary-light;
+  .box {
+    // color: defaultColors.$secondary;
+    // color: lightColors.$secondary;
+    background-color: lightColors.$secondary-light;
+  }
+}

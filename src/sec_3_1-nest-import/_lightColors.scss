@@ -1,0 +1,8 @@
+@import "./constant/defaultColors";
+
+$primary-light: lighten($primary, 30%);
+$secondary-light: lighten($secondary, 30%);
+$success-light: lighten($success, 30%);
+$info-light: lighten($info, 30%);
+$warning-light: lighten($warning, 30%);
+$danger-light: lighten($danger, 30%);

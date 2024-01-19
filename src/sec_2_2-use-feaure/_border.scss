@@ -1,0 +1,8 @@
+// configuration ans private variables
+$_border-width: 1px !default;
+$_border-color: #ccc !default;
+$_border-style: solid !default;
+
+@mixin border {
+  border: $_border-width $_border-style $_border-color;
+}

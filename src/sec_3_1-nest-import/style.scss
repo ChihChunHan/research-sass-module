@@ -1,0 +1,10 @@
+@import "./lightColors";
+
+div {
+  color: $primary;
+  background-color: $primary-light;
+  .box {
+    color: $secondary;
+    background-color: $secondary-light;
+  }
+}

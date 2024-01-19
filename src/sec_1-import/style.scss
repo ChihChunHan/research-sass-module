@@ -1,0 +1,11 @@
+@import "./_variables.scss";
+@import "./_mixins.scss";
+
+div {
+  color: $primary;
+  @include h1;
+  .box {
+    background: $secondary;
+    @include h2;
+  }
+}
