@@ -1,4 +1,4 @@
-@use "./_variables.scss";
+@use "./_variables.scss" as color;
 @use "./_mixins.scss";
 @use "./_border.scss" with (
   $_border-width: 2px,
@@ -7,12 +7,12 @@
 );
 
 div {
-  color: variables.$primary;
+  color: color.$primary;
   // font-size: mixins.$h1-font-size; // Error: no variable $h1-font-size found.
   @include mixins.h1;
   @include border.border;
   .box {
-    background: variables.$secondary;
+    background: color.$secondary;
     @include mixins.h2;
   }
 }
